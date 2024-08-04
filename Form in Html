@@ -1,1 +1,24 @@
-Vertically form for asking name,city ad pincode of the user
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first form</title>
+  </head>
+  <body>
+    <h1>Form about the name,city and pincode of the user</h1>
+    <form action="post"></form>
+    <label for="name"> Enter your name</label>
+    <input type="text" id="name" placeholder="Enter your name" />
+
+    <div>
+      <label for="place"> Enter your city name</label>
+      <input type="text" id="place" placeholder="enter your city name" />
+    </div>
+
+    <div>
+      <label for="pincode"> enter your pincode</label>
+      <input type="text" id="pincode" placeholder="enter your pincode" />
+    </div>
+  </body>
+</html>
